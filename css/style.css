@@ -44,7 +44,7 @@ main p{
    display: inline-block;
    bottom: -20px;
    opacity: 0;
-   font-size: 50px;
+   font-size: 30px;
    color: #000000;
    font-weight: bold;
 
@@ -734,9 +734,10 @@ textarea {
  margin-left: 50px;
 }
 
+.logo1{
 
-  main .marg{
-    margin-top: 100px;
+  font-size: 50px;
+ 
   }
 
 .flip-card {
@@ -1045,6 +1046,11 @@ border:7px solid black;
 
   @media screen and (min-width: 1000px){
 
+    .logo1{
+
+      font-size: 50px;
+     
+      }
 
 main .marg{
   margin-top: 100px;
