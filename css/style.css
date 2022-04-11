@@ -1001,8 +1001,12 @@ grid-row: 3/5;
 .popup{
   transition: none;
 }
-
-
+.sidenav{
+  transition: none;
+}
+.button{
+  transition: none;
+}
 .flip-card:hover .flip-card-inner,  .flip-card-back,
 .flip-card:focus .flip-card-inner,
 .flip-card:focus-within .flip-card-inner,
@@ -1022,7 +1026,7 @@ grid-row: 3/5;
 
 img:hover{
   filter:none;
-border:none;
+border:7px solid black;
 
 }
 
