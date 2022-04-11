@@ -730,6 +730,13 @@ textarea {
   
 
 @media screen and (min-width: 700px){
+
+
+  
+.marg{
+  margin-top: 100px;
+}
+  
 .grid-title2>p{
  margin-left: 50px;
 }
