@@ -228,7 +228,7 @@ footer{
 
 
 main{
-    font-size: 15px;
+    font-size: 18px;
 }
 
 /* main p{
@@ -302,7 +302,7 @@ margin-top: 25px;
 
       
       
-*:focus{
+*:focus, #name_input:focus,#email_input:focus, #message_input:focus, #form_button:focus{
     background: #88d88a;
 }
         
@@ -403,10 +403,12 @@ form {
 .icon {
   display: block;
   fill: #474544;
-  height: 50px;
   margin: 0 auto;
-  width: 80px;
-}
+    height: 90px;
+    width: 90px;
+  }
+  
+
 
 .email {
 	/* float: right; */
@@ -414,12 +416,15 @@ form {
 
 }
 
+
+
+
 input[type='text'], [type='email'], select, textarea {
 	background: none;
   border: none;
 	border-bottom: solid 2px #474544;
 	color: #474544;
-	font-size: 1.000em;
+	font-size: 0.875em;
   font-weight: 400;
   letter-spacing: 1px;
 	margin: 0em 0 1.875em 0;
@@ -513,6 +518,7 @@ textarea {
 	-ms-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
+  padding: 15px 25px;
 }
 
 #form_button:hover {
@@ -525,23 +531,7 @@ textarea {
     width: 68px;
   }
   
-  #form_button {
-    padding: 15px 25px;
-  }
 
-  
-  .icon {
-    height: 90px;
-    width: 90px;
-  }
-  
-  .underline {
-    width: 53px;
-  }
-  
-  input[type='text'], [type='email'], select, textarea {
-    font-size: 0.875em;
-  }
 
 
 
