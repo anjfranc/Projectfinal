@@ -724,7 +724,9 @@ textarea {
 
 @media screen and (min-width: 700px){
 
-
+  .flag{
+    width:60vh;
+  }
   
 .marg{
   margin-top: 100px;
@@ -1045,6 +1047,9 @@ border:7px solid black;
 
 
   @media screen and (min-width: 1000px){
+    .flag{
+      width:60vh;
+    }
 
     .logo1{
 
