@@ -3,7 +3,7 @@ let logo= document.querySelector(".logo-header");
 let logoSpan= document.querySelectorAll('.logo1');
 
 
-
+// animation for two span elements
 
 window.addEventListener("DOMContentLoaded", ()=>{
 setTimeout(()=>{
@@ -14,12 +14,15 @@ setTimeout(()=>{
     });
 
 
-    setTimeout(()=>{logoSpan.forEach((span,idx)=>{
-    setTimeout(()=>{span.classList.remove("active");
-span.classList.add('fade');},
+    setTimeout(()=>
+    {logoSpan.forEach((span,idx)=>{
+    setTimeout(()=>
+    {span.classList.remove("active");
+      span.classList.add('fade');},
 (idx+1)*50)})
-},2000);
+},2000); 
 
+// TO get entire splash screen to roll up
 setTimeout(()=>{intro.style.top='-100vh';
 }, 2300)
     

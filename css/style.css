@@ -116,6 +116,9 @@ text-align: left;
   font-style: italic;
 }
 
+.flag{
+  width:50vh;
+}
 
 
 /* Position and style the close button (top right corner) */
